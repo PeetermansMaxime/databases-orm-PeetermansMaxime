@@ -1,0 +1,14 @@
+/*.env
+# Virtual environments
+.venv/
+venv/
+
+# Editor folders
+.vscode/
+vsccode/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
