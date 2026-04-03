@@ -1,4 +1,0 @@
-sqlmodel==0.0.37
-psycopg[binary]==3.3.3
-fastapi[standard]==0.135.2
-python-dotenv==1.2.2
