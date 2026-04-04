@@ -35,7 +35,7 @@ DELETE → succes: 204  | niet gevonden: 404  | fout: 500
 Ja! FastAPI geeft standaard altijd 200 terug voor elk endpoint — ook POST.
 Maar de REST conventie zegt:
 
-POST die iets aanmaakt → hoort 201 Created te zijn
+POST die iets aanmaakt →   hoort 201 Created te zijn
 
 Dus je moet het expliciet vermelden omdat FastAPI het niet automatisch doet voor POST:
 python@router.post("/", response_model=Species, status_code=201)  # ← expliciet want afwijking van standaard

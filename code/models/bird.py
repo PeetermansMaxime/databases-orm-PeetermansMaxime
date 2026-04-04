@@ -21,5 +21,5 @@ class Bird(BirdBase, table=True):
     # ja idd dr erop te klikken in swagger.
 
 class BirdCreate(BirdBase):
-    """request model for creating a new bird""""
+    """request model for creating a new bird"""
     species_id: int

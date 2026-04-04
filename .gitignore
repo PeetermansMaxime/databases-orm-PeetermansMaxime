@@ -1,0 +1,27 @@
+/*.env
+
+.venv/
+venv/
+__pycache__/
+.vscode/
+*.csv
+*.pkl
+*.h5
+data/
+
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
